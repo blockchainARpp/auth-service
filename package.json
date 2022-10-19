@@ -1,0 +1,38 @@
+{
+  "name": "auth-service",
+  "version": "1.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Commun.com",
+  "license": "MIT",
+  "description": "auth-service",
+  "dependencies": {
+    "cyberway-core-service": "^3.59.3",
+    "cyberwayjs": "^20.0.0-beta7",
+    "dotenv": "^16.0.3",
+    "eosjs-ecc": "^4.0.4",
+    "node-fetch": "^2.3.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {},
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 4,
+    "semi": true,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "overrides": [
+      {
+        "files": [
+          "*.yml",
+          "*.json"
+        ],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
+}
